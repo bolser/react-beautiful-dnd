@@ -31,8 +31,8 @@ type WebkitHack = {|
   releaseTouchMove: () => void,
 |};
 
-export const timeForLongPress: number = 150;
-export const forcePressThreshold: number = 0.15;
+export const timeForLongPress: number = 0;
+export const forcePressThreshold: number = 0;
 const touchStartMarshal: EventMarshal = createEventMarshal();
 const noop = (): void => {};
 
